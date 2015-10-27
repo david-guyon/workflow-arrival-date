@@ -3,6 +3,10 @@
 The goal was to get an idea of the submission dates of workflows on Cloud or similar infrastructure over a day.
 Based on execution archives, the program draws a histogram graph of the amount of workflow submissions along a full day. Each value is an average of the number of submissions sent at a specific time every day during many years.
 
+![Generated histogram](https://raw.githubusercontent.com/dgetux/workflow-arrival-date/master/graph.png)
+
+The histogram just above is the result you should obtain. 
+
 ## Getting the tools ready
 
 Create a Python 2 virtualenv:
@@ -13,7 +17,7 @@ Activate the environment:
 
     source env/bin/activate
 
-Check Python and pip version (should be _2.x_):
+Check Python and pip version (should be `2.x`):
 
     python --version
     pip --version
